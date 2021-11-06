@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - Kokoa Clone</title>
+  </head>
+
+  <body>
+    <!-- 상단의 상태바  -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <!-- 헤더 -->
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-cog fa-lg"></i></span>
+      </div>
+    </header>
+
+    <!-- 친구 목록 메인 화면 -->
+    <main class="main-screen">
+      <!-- 사용자 이미지 및 네임칸  -->
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://item.kakaocdn.net/do/d84248170c2c52303db27306a00fb861effd194bae87d73dd00522794070855d"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Mini</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://w.namu.la/s/ce1412a4d9ecba5b0255c4f9aac976adee1f5924c85e2e1a32b14d016c40a9c1ee7aaafe3e5760f27476966c63d440d41a2735d10d8dc99009cc7fd5047398f87d923e89143ae927ba46b50fa416e023"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">메이</h4>
+            <h6 class="user-component__subtitle">
+              Please check My Kokoa Account Info
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">21:22</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 하단의 네비게이션 바 -->
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">1</span>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot" id="find"></div>
+            <i class="fas fa-ellipsis-h fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- 폰트 어썸 스크립트 -->
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
