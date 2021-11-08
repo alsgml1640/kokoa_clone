@@ -49,3 +49,18 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__subtitle {
+  display: flex;
+}
+.special-icon {
+  text-align: center;
+  margin-left: 5px;
+  color: tomato;
+  width: 15px;
+  height: 15px;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 500;
+}
